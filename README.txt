@@ -5,3 +5,7 @@ zip:
 sbt universal:packageBin
 deban:
 sbt debian:packageBin
+
+git add .
+git commit --message "commit msg!"
+git push #输入帐号信息然后提交
