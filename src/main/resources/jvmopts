@@ -1,0 +1,3 @@
+-J-Xms512m -J-Xmx512m -J-XX:+UseG1GC -J-XX: -ResizePLAB -J-XX: +PrintFlagsFinal -J-XX:+PrintReferenceGC
+-J-verbose:gc -J-XX:+PrintGCDetails -J-XX:+PrintGCTimeStamps -J-XX:+PrintAdaptiveSizePolicy -J-XX:+UnlockDiagnosticVMOptions
+-J-XX:+G1SummarizeConcMark
